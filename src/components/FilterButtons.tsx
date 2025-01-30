@@ -9,6 +9,7 @@ const FilterButtons: React.FC<FilterButtonsProps> = ({ setFilter }) => {
     <div>
       <button onClick={() => setFilter('all')}>All</button>
       <button onClick={() => setFilter('completed')}>Completed</button>
+      <button onClick={() => setFilter('pending')}>Ongoing</button>
       <button onClick={() => setFilter('pending')}>Pending</button>
     </div>
   );
